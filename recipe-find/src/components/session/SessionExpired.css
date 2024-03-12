@@ -1,0 +1,41 @@
+.session-expired-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.session-expired-box {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.session-expired-box h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.session-expired-box button {
+    background-color: #008600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.session-expired-box button:hover {
+    background-color: #45a049;
+}
